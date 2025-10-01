@@ -1,0 +1,33 @@
+ # === Builds e compilados ===
+out/
+target/
+build/
+bin/
+*.class
+
+# === IDE/Editor ===
+.vscode/
+.idea/
+*.iml
+
+# === SO ===
+.DS_Store
+Thumbs.db
+
+# === Logs e temporários ===
+*.log
+*.tmp
+*.swp
+
+# === Maven/Gradle caches ===
+.mvn/wrapper/maven-wrapper.jar
+.mvn/
+.gradle/
+**/.project
+**/.classpath
+
+# === Cobertura/testes ===
+.jacoco/
+*.exec
+
+# Mantém diretórios vazios (ex.: src/main/resources) com um .gitkeep, se precisares
