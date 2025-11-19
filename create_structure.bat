@@ -1,24 +1,34 @@
 @echo off
-echo Criando estrutura de diretorios para lab02...
+echo Criando estrutura de diretorios para lab04...
 
-mkdir lab02
-mkdir lab02\.vscode
-mkdir lab02\src
-mkdir lab02\src\main
-mkdir lab02\src\main\java
-mkdir lab02\src\main\java\pt
-mkdir lab02\src\main\java\pt\escnaval
-mkdir lab02\src\main\java\pt\escnaval\exercicios
-mkdir lab02\out
+mkdir lab05
+mkdir lab05\.vscode
+mkdir lab05\src
+mkdir lab05\src\main
+mkdir lab05\src\main\java
+mkdir lab05\src\main\java\pt
+mkdir lab05\src\main\java\pt\escnaval
+mkdir lab05\src\main\java\pt\escnaval\exercicios
+mkdir lab05\out
 
 
-echo. > lab02\src\main\java\pt\escnaval\exercicios\LeituraRobusta.java
-echo. > lab02\src\main\java\pt\escnaval\exercicios\CalcCLI.java
-echo. > lab02\src\main\java\pt\escnaval\exercicios\ConversorUnidades.java
-echo. > lab02\src\main\java\pt\escnaval\exercicios\EstatisticasSimples.java
-echo. > lab02\src\main\java\pt\escnaval\exercicios\UtilsIO.java
-echo. > lab02\.gitignore
+echo. > lab05\src\main\java\pt\escnaval\exercicios\Endereco.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\Autenticavel.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\Cliente.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\Conta.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\ContaOrdem.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\ContaPoupanca.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\Banco.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\MainDemo.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoIdentidade.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoArmadilhas.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoOrdenacao.java
+echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoHeranca.java
 
+
+
+echo. > lab05\.gitignore
+echo. > lab05\README.md     
 
 echo Estrutura criada com sucesso!
 pause
