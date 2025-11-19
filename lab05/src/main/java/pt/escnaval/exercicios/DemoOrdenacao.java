@@ -26,7 +26,6 @@ public class DemoOrdenacao {
         System.out.println("--- Array Original (desordenado) ---");
         mostrarClientes(clientes);
 
-        // Ordenar por nome (alfabético) e depois por id (critério de desempate)
         System.out.println("\n--- Ordenação por Nome (depois ID) ---");
         ordenarPorNomeEId(clientes);
         mostrarClientes(clientes);
