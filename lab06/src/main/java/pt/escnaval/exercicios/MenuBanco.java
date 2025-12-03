@@ -1,5 +1,17 @@
 package pt.escnaval.exercicios;
 
+import java.util.Locale;
+import java.util.Scanner;
+import pt.escnaval.exercicios.exceptions.ContaBancariaException;
+import pt.escnaval.exercicios.exceptions.ContaInvalidaException;
+import pt.escnaval.exercicios.exceptions.OperacaoNaoPermitidaException;
+import pt.escnaval.exercicios.exceptions.SaldoInsuficienteException;
+import pt.escnaval.exercicios.modelo.ContaBancaria;
+import pt.escnaval.exercicios.modelo.ContaCorrente;
+import pt.escnaval.exercicios.modelo.ContaPoupanca;
+import pt.escnaval.exercicios.servicos.Banco;
+import pt.escnaval.exercicios.utils.UtilsIO;
+
 public class MenuBanco {
     private static final Banco banco = new Banco();
 
