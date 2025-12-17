@@ -1,34 +1,32 @@
 @echo off
-echo Criando estrutura de diretorios para lab04...
+echo Criando estrutura de diretorios para lab06...
 
-mkdir lab05
-mkdir lab05\.vscode
-mkdir lab05\src
-mkdir lab05\src\main
-mkdir lab05\src\main\java
-mkdir lab05\src\main\java\pt
-mkdir lab05\src\main\java\pt\escnaval
-mkdir lab05\src\main\java\pt\escnaval\exercicios
-mkdir lab05\out
+mkdir lab07
+mkdir lab07\.vscode
+mkdir lab07\src
+mkdir lab07\src\main
+mkdir lab07\src\main\java
+mkdir lab07\src\main\java\pt
+mkdir lab07\src\main\java\pt\escnaval
+mkdir lab07\src\main\java\pt\escnaval\exercicios
+mkdir lab07\src\main\java\pt\escnaval\exercicios\mediateca
+mkdir lab07\src\main\java\pt\escnaval\exercicios\mediateca\modelo
+mkdir lab07\src\main\java\pt\escnaval\exercicios\mediateca\servicos
+mkdir lab07\src\main\java\pt\escnaval\exercicios\mediateca\utils
+mkdir lab07\src\data
+mkdir lab07\src\media
 
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\modelo\Album.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\modelo\Faixa.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\servicos\Mediateca.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\servicos\RepositorioTexto.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\servicos\Mp3Util.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\utils\UtilsIO.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\AppMediateca.java
+echo. > lab07\src\main\java\pt\escnaval\exercicios\mediateca\MenuMediateca.java
+echo. > lab07\README.md
+echo. > lab07\gitignore
 
-echo. > lab05\src\main\java\pt\escnaval\exercicios\Endereco.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\Autenticavel.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\Cliente.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\Conta.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\ContaOrdem.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\ContaPoupanca.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\Banco.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\MainDemo.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoIdentidade.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoArmadilhas.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoOrdenacao.java
-echo. > lab05\src\main\java\pt\escnaval\exercicios\DemoHeranca.java
-
-
-
-echo. > lab05\.gitignore
-echo. > lab05\README.md     
 
 echo Estrutura criada com sucesso!
 pause
