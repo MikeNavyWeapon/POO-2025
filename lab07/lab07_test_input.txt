@@ -1,0 +1,13 @@
+1
+3
+1
+2
+Test
+120
+
+6
+C:\Users\PC\Desktop\Programação Orientada a Objetos\Labs\media\exemplo.mp3
+exemplo_copia.mp3
+7
+1
+0
